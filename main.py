@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get('/')
 def get():
-    return {'hello':'world'}
+    return {'status':True}
